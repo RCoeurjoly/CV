@@ -1,5 +1,6 @@
 * How to create pdf
 From emacs, export to latex, only subtree!
+C-c C-e, C-s, l l
 #+begin_src shell :shebang #!/bin/bash -i :results output
 latexmk -g -pdf -pdflatex=pdflatex -outdir=~/CV ~/CV/RolandCoeurjolyEN.tex
 #+end_src
